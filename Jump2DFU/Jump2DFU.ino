@@ -6,6 +6,7 @@
 
 void setup()
 {  
+  ble_reset(4);
   ble_begin();
 }
 

@@ -10,6 +10,10 @@ In the "Release" folder, it contains a hex file of bootloader we have generated 
 
 In the "Jump2DFU" folder, it contains a sketch and the corresponding hex file running on Blend Micro. The sketch is used to jump to bootloader when Blend Micro received 0xFF from app. The sketch relys on our BLE libraries.
 
+To continue, you should update BLE libraries to latest version.
+
+And the sketch you want to upload it through DFU bootloader, must add the function ble_ reset(uint8_ t reset_ pin) before ble_ begin(). Otherwise, when uploaded it will still advertise the DFU service, unless re-power on Blend Micro.
+
 ## Getting Started ##
 
 1. Copy the released hex file, Caterina-BlendMicro.hex, to "Arduino\hardware\blend\bootloaders\caterina" if you have [added our Blend/Blend Micro boards onto Arduino](http://redbearlab.com/getting-started-blend/). You'd better backup the previous hex file of Blend Micro.
