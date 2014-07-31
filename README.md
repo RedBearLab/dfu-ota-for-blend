@@ -16,7 +16,7 @@ And the sketch you want to upload it through DFU bootloader, must add the functi
 
 ## Getting Started ##
 
-1. Copy the released hex file, Caterina-BlendMicro.hex, to "Arduino\hardware\blend\bootloaders\caterina" if you have [added our Blend/Blend Micro boards onto Arduino](http://redbearlab.com/getting-started-blend/). You'd better backup the previous hex file of Blend Micro.
+1. Copy the released hex file, DFU-OTA-BlendMicro.hex, to under the folder "Arduino\hardware\blend\bootloaders\caterina" if you have [added our Blend/Blend Micro boards onto Arduino](http://redbearlab.com/getting-started-blend/). Then rename it with "Caterina-BlendMicro.hex". You'd better backup the previous hex file of Blend Micro.
 
 2. You need an Arduino board with Arduino ISP sketch programmed.  Connect Blend Micro with the Arduino board. More info about Arduino ISP, please refer [here](http://arduino.cc/en/Tutorial/ArduinoISP).
 
@@ -28,7 +28,7 @@ And the sketch you want to upload it through DFU bootloader, must add the functi
 
 6. Select the downloaded hex file and open it with nRF Toolbox. Click on the "SELECT DEVICE" button to select the device with DFU ability. Then click "Upload".
 
-7. After uploading, the sketch will run. Use the LightBlue app to send 0xFF to Blend Micro, it will jump to the DFU bootloader.
+7. After uploading, the sketch will run. Use our BLE Controller->Simple Chat app to send "DFU" to Blend Micro, it will jump to the DFU bootloader.
 
 8. You can download any other sketchs as Jump2DFU by nRF Toolbox. Just complie the sketch running on Blend Micro to generate the hex file and then follow step 5 and step 6.
 
