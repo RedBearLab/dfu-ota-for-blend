@@ -1,0 +1,59 @@
+   1               		.file	"Events.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  17               	.Ltext0:
+  18               		.section	.text.USB_Event_Stub,"ax",@progbits
+  19               	.global	USB_Event_Stub
+  21               	USB_Event_Stub:
+  22               	.LFB23:
+  23               	.LSM0:
+  24               	/* prologue: function */
+  25               	/* frame size = 0 */
+  26               	/* epilogue start */
+  27               	.LSM1:
+  28 0000 0895      		ret
+  29               	.LFE23:
+  31               		.weak	EVENT_USB_Device_Connect
+  32               		.set	EVENT_USB_Device_Connect,USB_Event_Stub
+  33               		.weak	EVENT_USB_Device_Disconnect
+  34               		.set	EVENT_USB_Device_Disconnect,USB_Event_Stub
+  35               		.weak	EVENT_USB_Device_ControlRequest
+  36               		.set	EVENT_USB_Device_ControlRequest,USB_Event_Stub
+  37               		.weak	EVENT_USB_Device_ConfigurationChanged
+  38               		.set	EVENT_USB_Device_ConfigurationChanged,USB_Event_Stub
+  39               		.weak	EVENT_USB_Device_Suspend
+  40               		.set	EVENT_USB_Device_Suspend,USB_Event_Stub
+  41               		.weak	EVENT_USB_Device_WakeUp
+  42               		.set	EVENT_USB_Device_WakeUp,USB_Event_Stub
+  43               		.weak	EVENT_USB_Device_Reset
+  44               		.set	EVENT_USB_Device_Reset,USB_Event_Stub
+  45               		.weak	EVENT_USB_Device_StartOfFrame
+  46               		.set	EVENT_USB_Device_StartOfFrame,USB_Event_Stub
+  71               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 Events.c
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:2      *ABS*:0000003f __SREG__
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:3      *ABS*:0000003e __SP_H__
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:4      *ABS*:0000003d __SP_L__
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:5      *ABS*:00000034 __CCP__
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:6      *ABS*:00000000 __tmp_reg__
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:7      *ABS*:00000001 __zero_reg__
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:21     .text.USB_Event_Stub:00000000 USB_Event_Stub
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:21     .text.USB_Event_Stub:00000000 EVENT_USB_Device_Connect
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:21     .text.USB_Event_Stub:00000000 EVENT_USB_Device_Disconnect
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:21     .text.USB_Event_Stub:00000000 EVENT_USB_Device_ControlRequest
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:21     .text.USB_Event_Stub:00000000 EVENT_USB_Device_ConfigurationChanged
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:21     .text.USB_Event_Stub:00000000 EVENT_USB_Device_Suspend
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:21     .text.USB_Event_Stub:00000000 EVENT_USB_Device_WakeUp
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:21     .text.USB_Event_Stub:00000000 EVENT_USB_Device_Reset
+/var/folders/9j/7rf7trnn68xb8z3y2yltrx_c0000gn/T//ccFQ6FkG.s:21     .text.USB_Event_Stub:00000000 EVENT_USB_Device_StartOfFrame
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss
