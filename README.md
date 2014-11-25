@@ -5,6 +5,8 @@ Last updated: 2014/11/21
 
 - **Jump2DFU:** It contains a sketch and the corresponding hex file that running on Blend / Blend Micro. The sketch demonstrates that when Blend / Blend Micro received a "DFU" string from central device, it will jump to the bootloader (no matter whether it is the DFU-OTA bootloader or the typical serial bootloader).  
 
+- **MacOSX:** It contais the source code of the RBL_DFU App on Mac OS X.
+
 - **Release:** It contains the DFU-OTA bootloader we have generated for Blend / Blend Micro.
 
 - **Source:** It contains the source code and makefile to generate the DFU-OTA bootloader for Blend / Blend Micro.    

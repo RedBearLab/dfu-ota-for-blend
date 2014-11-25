@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193A240C1A2413310051610A /* com_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 193A24021A2413310051610A /* com_error.c */; };
+		193A240D1A2413310051610A /* com_iface.c in Sources */ = {isa = PBXBuildFile; fileRef = 193A24031A2413310051610A /* com_iface.c */; };
+		193A240E1A2413310051610A /* com_pterm.c in Sources */ = {isa = PBXBuildFile; fileRef = 193A24051A2413310051610A /* com_pterm.c */; };
+		193A24101A2413310051610A /* PseudoTermController.m in Sources */ = {isa = PBXBuildFile; fileRef = 193A24091A2413310051610A /* PseudoTermController.m */; };
+		193A24161A2413A80051610A /* DFUController.m in Sources */ = {isa = PBXBuildFile; fileRef = 193A24131A2413A80051610A /* DFUController.m */; };
+		193A24171A2413A80051610A /* DFUTargetAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 193A24151A2413A80051610A /* DFUTargetAdapter.m */; };
+		193A241A1A2413E00051610A /* IntelHex2BinConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 193A24191A2413E00051610A /* IntelHex2BinConverter.m */; };
+		193A241D1A2414AD0051610A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 193A241C1A2414AD0051610A /* AppDelegate.m */; };
+		193A24201A2414E80051610A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 193A241E1A2414E80051610A /* MainMenu.xib */; };
+		193A24241A2415420051610A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 193A24211A2415420051610A /* main.m */; };
+		193A24251A2415420051610A /* RBL_DFU-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 193A24221A2415420051610A /* RBL_DFU-Info.plist */; };
+		193A242A1A2415610051610A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 193A24261A2415610051610A /* Credits.rtf */; };
+		193A242B1A2415610051610A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 193A24281A2415610051610A /* InfoPlist.strings */; };
+		1998785619922F0100BDC451 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998785519922F0100BDC451 /* IOKit.framework */; };
+		29F401A1163B510F007BEE39 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F401A0163B510F007BEE39 /* Cocoa.framework */; };
+		29F401C2163B514A007BEE39 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F401C1163B514A007BEE39 /* IOBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		193A24021A2413310051610A /* com_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = com_error.c; path = RBL_DFU/PesoduTerm/com_error.c; sourceTree = SOURCE_ROOT; };
+		193A24031A2413310051610A /* com_iface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = com_iface.c; path = RBL_DFU/PesoduTerm/com_iface.c; sourceTree = SOURCE_ROOT; };
+		193A24041A2413310051610A /* com_iface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = com_iface.h; path = RBL_DFU/PesoduTerm/com_iface.h; sourceTree = SOURCE_ROOT; };
+		193A24051A2413310051610A /* com_pterm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = com_pterm.c; path = RBL_DFU/PesoduTerm/com_pterm.c; sourceTree = SOURCE_ROOT; };
+		193A24061A2413310051610A /* com_pterm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = com_pterm.h; path = RBL_DFU/PesoduTerm/com_pterm.h; sourceTree = SOURCE_ROOT; };
+		193A24081A2413310051610A /* PseudoTermController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PseudoTermController.h; path = RBL_DFU/PesoduTerm/PseudoTermController.h; sourceTree = SOURCE_ROOT; };
+		193A24091A2413310051610A /* PseudoTermController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PseudoTermController.m; path = RBL_DFU/PesoduTerm/PseudoTermController.m; sourceTree = SOURCE_ROOT; };
+		193A24121A2413A80051610A /* DFUController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DFUController.h; path = RBL_DFU/DFU/DFUController.h; sourceTree = SOURCE_ROOT; };
+		193A24131A2413A80051610A /* DFUController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DFUController.m; path = RBL_DFU/DFU/DFUController.m; sourceTree = SOURCE_ROOT; };
+		193A24141A2413A80051610A /* DFUTargetAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DFUTargetAdapter.h; path = RBL_DFU/DFU/DFUTargetAdapter.h; sourceTree = SOURCE_ROOT; };
+		193A24151A2413A80051610A /* DFUTargetAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DFUTargetAdapter.m; path = RBL_DFU/DFU/DFUTargetAdapter.m; sourceTree = SOURCE_ROOT; };
+		193A24181A2413E00051610A /* IntelHex2BinConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntelHex2BinConverter.h; path = RBL_DFU/hex2bin/IntelHex2BinConverter.h; sourceTree = SOURCE_ROOT; };
+		193A24191A2413E00051610A /* IntelHex2BinConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntelHex2BinConverter.m; path = RBL_DFU/hex2bin/IntelHex2BinConverter.m; sourceTree = SOURCE_ROOT; };
+		193A241B1A2414AD0051610A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RBL_DFU/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		193A241C1A2414AD0051610A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RBL_DFU/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		193A241F1A2414E80051610A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = RBL_DFU/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		193A24211A2415420051610A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RBL_DFU/main.m; sourceTree = SOURCE_ROOT; };
+		193A24221A2415420051610A /* RBL_DFU-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "RBL_DFU-Info.plist"; path = "RBL_DFU/RBL_DFU-Info.plist"; sourceTree = SOURCE_ROOT; };
+		193A24231A2415420051610A /* RBL_DFU-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RBL_DFU-Prefix.pch"; path = "RBL_DFU/RBL_DFU-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		193A24271A2415610051610A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = RBL_DFU/en.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
+		193A24291A2415610051610A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = RBL_DFU/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		1998785519922F0100BDC451 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		29F4019C163B510F007BEE39 /* RBL_DFU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBL_DFU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F401A0163B510F007BEE39 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		29F401A3163B510F007BEE39 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		29F401A4163B510F007BEE39 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29F401A5163B510F007BEE39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29F401C1163B514A007BEE39 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29F40199163B510F007BEE39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F401C2163B514A007BEE39 /* IOBluetooth.framework in Frameworks */,
+				29F401A1163B510F007BEE39 /* Cocoa.framework in Frameworks */,
+				1998785619922F0100BDC451 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A115AC19A07ACD0014B55A /* PesoduTerm */ = {
+			isa = PBXGroup;
+			children = (
+				193A24021A2413310051610A /* com_error.c */,
+				193A24031A2413310051610A /* com_iface.c */,
+				193A24041A2413310051610A /* com_iface.h */,
+				193A24051A2413310051610A /* com_pterm.c */,
+				193A24061A2413310051610A /* com_pterm.h */,
+				193A24081A2413310051610A /* PseudoTermController.h */,
+				193A24091A2413310051610A /* PseudoTermController.m */,
+			);
+			name = PesoduTerm;
+			sourceTree = "<group>";
+		};
+		19A1E507198B6676003B3B8F /* hex2bin */ = {
+			isa = PBXGroup;
+			children = (
+				193A24181A2413E00051610A /* IntelHex2BinConverter.h */,
+				193A24191A2413E00051610A /* IntelHex2BinConverter.m */,
+			);
+			name = hex2bin;
+			sourceTree = "<group>";
+		};
+		19A1E50B198B66B5003B3B8F /* DFU */ = {
+			isa = PBXGroup;
+			children = (
+				193A24121A2413A80051610A /* DFUController.h */,
+				193A24131A2413A80051610A /* DFUController.m */,
+				193A24141A2413A80051610A /* DFUTargetAdapter.h */,
+				193A24151A2413A80051610A /* DFUTargetAdapter.m */,
+			);
+			name = DFU;
+			sourceTree = "<group>";
+		};
+		29F40191163B510F007BEE39 = {
+			isa = PBXGroup;
+			children = (
+				29F401A6163B510F007BEE39 /* RBL_DFU */,
+				29F4019F163B510F007BEE39 /* Frameworks */,
+				29F4019D163B510F007BEE39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29F4019D163B510F007BEE39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29F4019C163B510F007BEE39 /* RBL_DFU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29F4019F163B510F007BEE39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1998785519922F0100BDC451 /* IOKit.framework */,
+				29F401C1163B514A007BEE39 /* IOBluetooth.framework */,
+				29F401A0163B510F007BEE39 /* Cocoa.framework */,
+				29F401A2163B510F007BEE39 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29F401A2163B510F007BEE39 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29F401A3163B510F007BEE39 /* AppKit.framework */,
+				29F401A4163B510F007BEE39 /* CoreData.framework */,
+				29F401A5163B510F007BEE39 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		29F401A6163B510F007BEE39 /* RBL_DFU */ = {
+			isa = PBXGroup;
+			children = (
+				193A241E1A2414E80051610A /* MainMenu.xib */,
+				193A241B1A2414AD0051610A /* AppDelegate.h */,
+				193A241C1A2414AD0051610A /* AppDelegate.m */,
+				19A115AC19A07ACD0014B55A /* PesoduTerm */,
+				19A1E50B198B66B5003B3B8F /* DFU */,
+				19A1E507198B6676003B3B8F /* hex2bin */,
+				29F401A7163B510F007BEE39 /* Supporting Files */,
+			);
+			name = RBL_DFU;
+			path = SimpleControls;
+			sourceTree = "<group>";
+		};
+		29F401A7163B510F007BEE39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				193A24261A2415610051610A /* Credits.rtf */,
+				193A24281A2415610051610A /* InfoPlist.strings */,
+				193A24211A2415420051610A /* main.m */,
+				193A24221A2415420051610A /* RBL_DFU-Info.plist */,
+				193A24231A2415420051610A /* RBL_DFU-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29F4019B163B510F007BEE39 /* RBL_DFU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F401BA163B510F007BEE39 /* Build configuration list for PBXNativeTarget "RBL_DFU" */;
+			buildPhases = (
+				29F40198163B510F007BEE39 /* Sources */,
+				29F40199163B510F007BEE39 /* Frameworks */,
+				29F4019A163B510F007BEE39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RBL_DFU;
+			productName = BLETest;
+			productReference = 29F4019C163B510F007BEE39 /* RBL_DFU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29F40193163B510F007BEE39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = RedBearLab;
+			};
+			buildConfigurationList = 29F40196163B510F007BEE39 /* Build configuration list for PBXProject "RBL_DFU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29F40191163B510F007BEE39;
+			productRefGroup = 29F4019D163B510F007BEE39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29F4019B163B510F007BEE39 /* RBL_DFU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29F4019A163B510F007BEE39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193A24201A2414E80051610A /* MainMenu.xib in Resources */,
+				193A242B1A2415610051610A /* InfoPlist.strings in Resources */,
+				193A242A1A2415610051610A /* Credits.rtf in Resources */,
+				193A24251A2415420051610A /* RBL_DFU-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29F40198163B510F007BEE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193A241D1A2414AD0051610A /* AppDelegate.m in Sources */,
+				193A240D1A2413310051610A /* com_iface.c in Sources */,
+				193A24161A2413A80051610A /* DFUController.m in Sources */,
+				193A240C1A2413310051610A /* com_error.c in Sources */,
+				193A240E1A2413310051610A /* com_pterm.c in Sources */,
+				193A24101A2413310051610A /* PseudoTermController.m in Sources */,
+				193A241A1A2413E00051610A /* IntelHex2BinConverter.m in Sources */,
+				193A24241A2415420051610A /* main.m in Sources */,
+				193A24171A2413A80051610A /* DFUTargetAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		193A241E1A2414E80051610A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193A241F1A2414E80051610A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		193A24261A2415610051610A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193A24271A2415610051610A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		193A24281A2415610051610A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193A24291A2415610051610A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29F401B8163B510F007BEE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		29F401B9163B510F007BEE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		29F401BB163B510F007BEE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RBL_DFU/RBL_DFU-Prefix.pch";
+				INFOPLIST_FILE = "RBL_DFU/RBL_DFU-Info.plist";
+				PRODUCT_NAME = RBL_DFU;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29F401BC163B510F007BEE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RBL_DFU/RBL_DFU-Prefix.pch";
+				INFOPLIST_FILE = "RBL_DFU/RBL_DFU-Info.plist";
+				PRODUCT_NAME = RBL_DFU;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F40196163B510F007BEE39 /* Build configuration list for PBXProject "RBL_DFU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F401B8163B510F007BEE39 /* Debug */,
+				29F401B9163B510F007BEE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F401BA163B510F007BEE39 /* Build configuration list for PBXNativeTarget "RBL_DFU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F401BB163B510F007BEE39 /* Debug */,
+				29F401BC163B510F007BEE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29F40193163B510F007BEE39 /* Project object */;
+}
